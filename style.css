@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+position: sticky;
+top: 0%;
+z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,rgb(202, 5, 5),white);
+    padding: 0 ;
+}
+
+
+.navbar-item li
+{
+    padding: 30px;
+}
+.nav-item li a
+{
+    color: rgb(4, 0, 255);
+    font-weight: bold;
+}
+.fa-bars
+{
+    color: white;
+    font-size: 30px !important;
+}
+#banner
+{
+    background-image:  linear-gradient(to right,rgb(137, 121, 220),rgb(186, 17, 127));
+    color: white;
+    padding-top: 5%;
+}
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
